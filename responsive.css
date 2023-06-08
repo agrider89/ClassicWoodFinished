@@ -1,0 +1,129 @@
+@media screen and (max-width:768px) {
+
+    /* Index.html */
+
+    .container { max-width: 768px;}
+
+    .header nav {gap: 50px;}
+
+    .team {
+        width: 500px;
+        gap: 0px;
+    }
+   
+    .divider {max-width: 750px;}
+
+    /* Shop.html */
+
+    .divider-top {max-width: 750px;}
+
+    /* Contact */
+
+    .form {align-self: start;}
+
+    .map {gap: 30px;}
+
+    /* gallery?? */
+
+    .gallery {
+        position:relative;
+        max-width: 350px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+        margin-top: 70px;
+    
+       }
+       .gallery img {
+        width: 100%;
+        margin-inline: auto;
+        
+       }
+       .gallery img:hover{
+        transform: none;
+       }
+       .pic-2, .pic-3,
+       .pic-4, .pic-5, 
+       .pic-6,.pic-7, 
+       .pic-8, .pic-9, 
+       .pic-10, .pic-11, 
+       .pic-12, .pic-13 {
+        margin-top: 5px;
+       }
+}
+
+@media screen and (max-width:414px) {
+    .container {
+      max-width: 100%;
+    }
+ 
+    .header a {
+      display: none;
+    }
+
+   .header a:nth-child(3){
+      display:block;
+      margin-top: 40px;
+   }
+
+   .hamburger {
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: 15px;
+   }
+
+  .gallery-home {
+    margin: 350px auto 150px;
+    gap: 100px;
+}
+
+  .slideshow-container img {
+    width: 350px;
+    height: 350px;
+  }
+
+  .about-text {width: 350px;} 
+
+  .divider {width: 350px;}
+
+   /* Gallery.html styles */
+
+   .divider-top {
+    max-width: 350px;
+   }
+   .gallery {
+    position:relative;
+    max-width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 130px auto;
+   }
+
+   .gallery-text {
+    text-align: center;
+    margin-top: -100px;
+   }
+
+   .gallery-text a {
+    margin-inline: auto;
+   }
+
+   .gallery img {
+    width: 80%;
+    margin-inline: auto;
+
+   }
+   .pic-2, .pic-3,
+   .pic-4, .pic-5, 
+   .pic-6,.pic-7, 
+   .pic-8, .pic-9, 
+   .pic-10, .pic-11, 
+   .pic-12, .pic-13 {
+    margin-top: 5px;
+   }
+   .footer-text {
+    max-width: 350px;
+   }
+
+
+}

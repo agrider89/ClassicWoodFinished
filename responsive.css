@@ -6,6 +6,7 @@
 
     .header nav {gap: 50px;}
 
+   
     .team {
         width: 500px;
         gap: 0px;
@@ -73,7 +74,7 @@
    }
 
   .gallery-home {
-    margin: 350px auto 150px;
+    margin: 250px auto 150px;
     gap: 100px;
 }
 

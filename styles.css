@@ -544,24 +544,23 @@ form textarea {
 }
 
 .menu-modal{
-    background-color: black;
     position: fixed;
     visibility: hidden;
-    opacity: 0;
+    background-color: black;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    transition: all 300ms ease-in;
-    transform: translateY(100%);
-    color: #000000;
+    transform: scale(0.01);
     z-index: 99;
+    opacity: 0;  
 }
 
 .menu-modal.visible {
     visibility: visible;
     opacity: 1;
     transform: none;
+    transition: all 200ms ease-in;
 }
 
 .close {

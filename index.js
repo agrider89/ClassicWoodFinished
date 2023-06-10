@@ -7,6 +7,13 @@ const visible = 'visible';
 const openMenu = document.querySelectorAll(menuOpen);
 const closeMenu = document.querySelectorAll(menuClose);
 
+
+for(const el of closeMenu) {
+  el.addEventListener('click', function() {
+    this.parentElement.classList.remove(visible);
+  })
+}
+
 for(const el of openMenu) {
   el.addEventListener('click', function() {
     const menuId = this.dataset.open;
@@ -14,10 +21,4 @@ for(const el of openMenu) {
   })
 }
 
-for(const el of closeMenu) {
-  el.addEventListener('click', function() {
-    const menuId = this.dataset.close;
-    this.parentElement.classList.remove(visible);
-    this.parentElement.parentElement.classList.remove(visible);
-  })
-}
+
